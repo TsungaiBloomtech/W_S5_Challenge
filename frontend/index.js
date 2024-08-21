@@ -14,7 +14,7 @@ async function sprintChallenge5() { // Note the async keyword so you can use `aw
     .get("http://localhost:3003/api/learners")
     .then((response)=>{
       learners = response.data;
-      console.log(learners);
+      //console.log(learners);
     })
     .catch((err) => {
       console.log(err);
@@ -30,7 +30,7 @@ async function sprintChallenge5() { // Note the async keyword so you can use `aw
       console.log(err);
     })
   
-  console.log(mentors);
+  //console.log(mentors);
   
 
   // 👆 ==================== TASK 1 END ====================== 👆
